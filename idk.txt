@@ -1,0 +1,67 @@
+3101  git --version
+3102  git init
+3103  echo "# My First Git Project" > README.md
+3104  git status
+3105  git add .
+3106  git commit -m "feat: Initial project setup and README"
+3107  git remote add origin https://github.com/gimmeursocks/konecta-week-1.git
+3108  git remote -c
+3109  git remote -v
+3110  git push
+3111  git push -u origin main
+3112  git push -u origin master
+3113  git checkout -b feature/add-greeting
+3114  git checkout -b main
+3115  git push
+3116  git push -u origin main
+3117  git branch
+3118  git branch -d master
+3119  git push origin --delete master
+3120  git checkout feature/add-greeting
+3121  echo "This project will greet you >> README.md\n\nq
+3122  echo "This project will greet you >> README.md
+3123  echo "This project will greet you! " >> README.md
+3124  echo 'print("Hello, Git!")' > greet.py
+3125  git add .
+3126  git commit -m "feat: Add simple greeting feature with Python script"
+3127  git checkout main
+3128  ls
+3129  git merge feature/add-trackign
+3130  git merge feature/add-tracking
+3131  git merge feature/add-greeting
+3132  git branch -d feature/add-greeting
+3133  git push origin main
+3134  echo "## Project Goals" >> README.md\necho "- Learn Git" >> README.md\n
+3135  git add README.md\ngit commit -m "docs: Add project goals section"\n
+3136  git push origin main
+3137  git checkout -b conflict-feature
+3138  git add .
+3139  git commit -m "feat: Modify README"
+3140  git amend
+3141  git commit --amend
+3142  git checkout main
+3143  echo "- Collaborate Effectively" >> README.md
+3144  git add .
+3145  git commit -m "docs: Add collaboration goal to main"
+3146  git merge conflict-merge
+3147  git merge conflict-feature
+3148  git add .
+3149  git status
+3150  git commit
+3151  git branch -d conflict-feature
+3152  git push origin main
+3153  calculator.py
+3154  git add calculator.py\ngit commit -m "feat: Add basic calculator functions (add, subtract)"\n
+3155  git add calculator.py\ngit commit -m "feat: Add multiply function"\n
+3156  git add calculator.py\ngit commit -m "fix: Optimize subtract function logic (introducing bug)"\n
+3157  python calculator.py
+3158  git add calculator.py\ngit commit -m "feat: Add divide function with zero check"\n
+3159  git status
+3160  git log --oneline
+3161  git diff f3e4ed7~1 f3e4ed7 calculator.py
+3162  git stash
+3163  git revert f3e4ed7
+3164  python calculator.py
+3165  git stash pop
+3166  git push origin main
+3167  history | tail -n 70
