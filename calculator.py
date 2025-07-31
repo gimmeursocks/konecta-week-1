@@ -3,10 +3,10 @@ def add(a, b):
 
 
 def subtract(a, b):
-    # THIS IS THE BUG! Should be 'a - b'
-    return a + b  # Intentional bug: changed to addition!
+    return a - b
 
 
+# Add this new function
 def multiply(a, b):
     return a * b
 
